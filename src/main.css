@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+    /* text-align: center; */
+}
+
+.compteur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    background-color: #fff;
+    /* color: #000; */
+    border-radius: 5;
+    gap: 10px;
+    margin: 10px;
+}
+
+.compteur button{
+    padding: 8px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    padding: 10%;
+}
+
+.compteur p{
+    background-color: transparent;
+    color: #000;
+    font-size: 25px;
+}
+
+.compteur p.erreur{
+    color: red;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 53, 150);
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.post .button{
+    display: flex;
+    gap: 10px;
+    width: 40%;
+}
+
+.post .button button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.post.active{
+    background-color: rgb(178, 137, 98);
+}
+
+.post .like{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.post .effacer{
+    background-color: red;
+    color: #fff;
+    border: none;
+}
+
+.navbar{
+    text-align: center;
+}

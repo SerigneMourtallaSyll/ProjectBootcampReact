@@ -1,0 +1,47 @@
+{
+  "utilisateurs": [
+    {
+      "nomUtilisateur": "Serigne Mourtalla Syll",
+      "mailUtilisateur": "serignemourtallasyll86@gmail.com",
+      "motDePasse": "Serigne2000",
+      "confirmationDeMotDePasse": "Serigne2000",
+      "id": 2
+    },
+    {
+      "nomUtilisateur": "Serigne Mourtalla Syll",
+      "mailUtilisateur": "serignemourtallasyll86@yahoo.fr",
+      "motDePasse": "Serigne2000",
+      "confirmationDeMotDePasse": "Serigne2000",
+      "id": 3
+    }
+  ],
+  "publications": [
+    {
+      "textPublication": "Salut les amis heureux d'être parmis vous ",
+      "imagePublication": "https://img.freepik.com/photos-gratuite/etudiant-positif-peau-foncee-porte-dossiers-livre-pointe-expression-joyeuse-cote-sourire-pleines-dents_273609-23704.jpg?w=826&t=st=1700041914~exp=1700042514~hmac=5cfa398a895ef3fe1b199f6d9f20176c27b0c9819c5cd4491f3454096397e93e",
+      "idUtilisateur": 2,
+      "datePublication": "2023-11-15T09:59:34.541Z",
+      "likePublication": 0,
+      "auteur": "Serigne Mourtalla Syll",
+      "id": 2
+    },
+    {
+      "textPublication": "Bonjour je suis un nouveau",
+      "imagePublication": "https://img.freepik.com/photos-gratuite/homme-americain-africain-porter-pull-rouge_273609-23350.jpg?w=826&t=st=1700050681~exp=1700051281~hmac=e9e5348640606bfb99a4619cdc59d263af757bd48c33bc67229917e64d7da131",
+      "idUtilisateur": 2,
+      "datePublication": "2023-11-15T12:21:15.327Z",
+      "likePublication": 0,
+      "auteur": "Serigne Mourtalla Syll",
+      "id": 3
+    },
+    {
+      "textPublication": "Hey, bonjour les amis j'espère que vous allez tous bien.",
+      "imagePublication": "https://img.freepik.com/photos-gratuite/portrait-homme-afro-confiant-vetu-chemise-classique-blanche-mains-jointes-isole-fond-gris_231208-2194.jpg?w=826&t=st=1700051455~exp=1700052055~hmac=6464abcc8d674d2402c7cd8a5ca823a9e7fa4bab5c8a89ab466b4f79145abfe1",
+      "idUtilisateur": 2,
+      "datePublication": "2023-11-15T12:32:03.583Z",
+      "likePublication": 0,
+      "auteur": "Serigne Mourtalla Syll",
+      "id": 4
+    }
+  ]
+}
