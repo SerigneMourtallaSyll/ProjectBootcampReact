@@ -46,7 +46,7 @@ function AjouterPublication() {
                 <Stack gap={"8px"}>
                     <TextField id="nom" label="Partager une publication" variant="outlined" fullWidth size="small" multiline rows={4} {...register("textPublication", {required: "Veuillez saisir un texte", minLength: {value: 10 , message: "Veuillez saisir un texte de plus de 10 caracteres"}})} />
                     <TextField id="nom" label="Saisir l'url de votre image" variant="outlined" fullWidth size="small" rows={4} {...register("imagePublication", {required: "Veuillez saisir un url", minLength: {value: 5 }})}/>
-                    <Button variant='contained' type='submit'>Publier</Button>
+                    <Button variant='contained' type='submit' style={{width: "30%"}}>Publier</Button>
                 </Stack>
             </form>
         </Stack>

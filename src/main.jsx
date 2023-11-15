@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client';
 import { Toaster } from 'react-hot-toast';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { ReactQueryDevtoolsPanel } from 'react-query/devtools'
+// import { ReactQueryDevtoolsPanel } from 'react-query/devtools'
 // import App from './App.jsx';
 import { createBrowserRouter, Link, RouterProvider, Outlet } from 'react-router-dom';
 // import Article from '../src/Les composants/Article.jsx';
@@ -14,8 +14,8 @@ import { createBrowserRouter, Link, RouterProvider, Outlet } from 'react-router-
 // import Proteger from './Les composants/Proteger.jsx';
 import Dashboard from '../src/Pages/dashboard/Dashboard.jsx';
 import Connexion from '../src/Pages/connexion/Connexion.jsx';
-import Inscription from '../src/Pages/inscription/Inscription.jsx'
-import MyApp from './MyApp.jsx';
+import Inscription from '../src/Pages/inscription/Inscription.jsx';
+// import MyApp from './MyApp.jsx';
 // const route = createBrowserRouter([
 //   {
 //     path: "/",
